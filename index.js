@@ -34,7 +34,7 @@ mongoose
 .catch((error) => console.log(error));
 const io = new Server(server);
 
-app.get("/",(req,res)=> res.send("hello api iiii"));
+app.get("/",(req,res)=> res.send("hello api "));
 app.use("/user", UserRouter);
 app.use("/application", ApplicationRouter);
 app.use("/contact", ContactRouter);
